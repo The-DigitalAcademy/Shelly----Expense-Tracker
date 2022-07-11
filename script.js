@@ -9,3 +9,7 @@ var stateObj = {
     ]
 }
 
+var balanceEl = document.querySeclector('#balance');
+var incomeEl = document.querySeclector('#income');
+var expenseE1 = document.querySeclector('#expense');
+var transtions = doc
