@@ -11,6 +11,9 @@ var stateObj = {
 
 var balanceEl = document.querySeclector('#balance');
 var incomeEl = document.querySeclector('#income');
-var expenseE1 = document.querySeclector('#expense');
-var transactions = document.querySeclector('#transactions');
-var incomeBtnE1 = document.querySeclector('#incomeBtn');
+var expenseEl = document.querySeclector('#expense');
+var transactionsEl = document.querySeclector('#transactions');
+var incomeBtnEl = document.querySeclector('#incomeBtn');
+var expenseBtnEl = document.querySeclector('#expenseBtn');
+var nameInputEl = document.querySeclector('#name');
+var accountInputEl = document.querySeclector('#amount');
