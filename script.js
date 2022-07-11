@@ -17,3 +17,9 @@ var incomeBtnEl = document.querySeclector('#incomeBtn');
 var expenseBtnEl = document.querySeclector('#expenseBtn');
 var nameInputEl = document.querySeclector('#name');
 var accountInputEl = document.querySeclector('#amount');
+
+function init(){
+    var localState = JSON.parse(localStorage.getItem('expenseTrackerState'));
+
+    if (localState !== null)
+}
