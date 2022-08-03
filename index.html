@@ -14,14 +14,19 @@
             <h3 class="secondTitle">Add a new item:</h3>
             <div class="form">
               <form id="expform">
-                <div class="formLine right">
+                <div class="formLine left">
+                  <span for="type">Type</span>
+                  <select id="type">
+                    <option value="chooseOne">Choose one...</option>
+                    <option value="Income">Income</option>
+                    <option value="Expense">Expense</option>
+                  </select>
+                </div>
+                <div class="formLine left">
                   <span for="type">Name:</span>
                   <input type="text" id="name">
             </div>
-            <br
-            <br
-
-            <div class="formLine left">
+            <div class="formLine right">
               <span for="amount">Amount:</span>
               <input type="text" id="amount"
             </div>
