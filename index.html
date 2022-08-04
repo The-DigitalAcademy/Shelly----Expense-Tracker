@@ -15,20 +15,17 @@
     <header>
 
     <section class="content">
-        <div id="center">
-            <h3 class="secondTitle">Add a new item: </h3>
-        <div>
-            <form>
-                <div>
+        <h3 class="secondTitle">Add a new item: </h3>
+        <div class="form">
+            <form id="expForm">
+                <div class="formLine left">
                     <span for="type">Type:</span>
-                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <select id="type">
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<select id="type">
                         <option value="chooseOne">Choose one...</option>
-                        <option value="Income">Income</option>
-                        <option value="Expense">Expense</option>
-                        <option value="Other">Other</option>
+                        <option value="income">Income</option>
+                        <option value="expense">Expense</option>
                     </select>
                 </div>
-                <br>
                 <br>
                 <div class="formLine right">
                     <span for="name">Name:</span>
@@ -39,11 +36,9 @@
                     <span for="amount">Amount:</span>
                     <input type="text" id="amount">
                 </div>
+                <button type="submit" class="buttonSave">Add a new expense</button>
             </form>
         </div>
-    </div>
-    <br>
-    <button type="submit" class="buttonSave">Add a new expense</button>
     </section>
     <section class="content">
         <table class="table">

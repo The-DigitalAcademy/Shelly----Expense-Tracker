@@ -17,7 +17,6 @@ function addExpense(e){
         const expense = {
             type, 
             name, 
-            date,
             amount, 
             id: expenses.length > 0 ? expenses[expenses.length - 1].id + 1 : 1,
         }
@@ -42,7 +41,7 @@ const showExpenses = () => {
             <tr>
                 <td>${expenses[i].type}</td>
                 <td>${expenses[i].name}</td>
-                <td>$${expenses[i].amount}</td>
+                <td>R${expenses[i].amount}</td>
                 <td><a class="deleteButton" onclick="deleteExpense(${expenses[i].id})">
                     Delete</td>
             </tr>
